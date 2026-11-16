@@ -321,7 +321,7 @@ try {
 }
 const KEYS={products:"ta_store_v16",settings:"ta_pay_config_v16",orders:"ta_orders_v16"};
 const ADMIN_PIN="3636786";
-const defaultSettings={brand:"🔥 TA RAJ",phone:"919883222901",upi:"taffseller@ybl",whatsapp:"919883222901",qr:""};
+const defaultSettings={brand:"🔥 TA RAJ",phone:"919239818367",upi:"taffseller@ybl",whatsapp:"919239818367",qr:""};
 function read(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}}
 let products=read(KEYS.products,read("ta_store_v15",[])).map(p=>{
  const rawStatus=String(p.status||"").toLowerCase();
